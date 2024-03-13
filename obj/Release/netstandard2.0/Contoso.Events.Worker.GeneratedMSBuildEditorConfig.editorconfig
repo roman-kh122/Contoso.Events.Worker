@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = Contoso.Events.Worker
+build_property.ProjectDir = E:\NULP\Term_6\CC\Labs\Lab5\Lab5_1\Starter\Contoso.Events.Worker\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

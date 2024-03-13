@@ -1,0 +1,248 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\NULP\\Term_6\\CC\\Labs\\Lab5\\Lab5_1\\Starter\\Contoso.Events.Worker\\Contoso.Events.Worker.csproj": {}
+  },
+  "projects": {
+    "E:\\NULP\\Term_6\\CC\\Labs\\Lab5\\Lab5_1\\Starter\\Contoso.Events.Data\\Contoso.Events.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\NULP\\Term_6\\CC\\Labs\\Lab5\\Lab5_1\\Starter\\Contoso.Events.Data\\Contoso.Events.Data.csproj",
+        "projectName": "Contoso.Events.Data",
+        "projectPath": "E:\\NULP\\Term_6\\CC\\Labs\\Lab5\\Lab5_1\\Starter\\Contoso.Events.Data\\Contoso.Events.Data.csproj",
+        "packagesPath": "C:\\Users\\roman\\.nuget\\packages\\",
+        "outputPath": "E:\\NULP\\Term_6\\CC\\Labs\\Lab5\\Lab5_1\\Starter\\Contoso.Events.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\roman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "E:\\NULP\\Term_6\\CC\\Labs\\Lab5\\Lab5_1\\Starter\\Contoso.Events.Models\\Contoso.Events.Models.csproj": {
+                "projectPath": "E:\\NULP\\Term_6\\CC\\Labs\\Lab5\\Lab5_1\\Starter\\Contoso.Events.Models\\Contoso.Events.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[22.0.8, )"
+            },
+            "Microsoft.Azure.DocumentDB.Core": {
+              "target": "Package",
+              "version": "[1.9.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[8.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\NULP\\Term_6\\CC\\Labs\\Lab5\\Lab5_1\\Starter\\Contoso.Events.Models\\Contoso.Events.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\NULP\\Term_6\\CC\\Labs\\Lab5\\Lab5_1\\Starter\\Contoso.Events.Models\\Contoso.Events.Models.csproj",
+        "projectName": "Contoso.Events.Models",
+        "projectPath": "E:\\NULP\\Term_6\\CC\\Labs\\Lab5\\Lab5_1\\Starter\\Contoso.Events.Models\\Contoso.Events.Models.csproj",
+        "packagesPath": "C:\\Users\\roman\\.nuget\\packages\\",
+        "outputPath": "E:\\NULP\\Term_6\\CC\\Labs\\Lab5\\Lab5_1\\Starter\\Contoso.Events.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\roman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\NULP\\Term_6\\CC\\Labs\\Lab5\\Lab5_1\\Starter\\Contoso.Events.Worker\\Contoso.Events.Worker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\NULP\\Term_6\\CC\\Labs\\Lab5\\Lab5_1\\Starter\\Contoso.Events.Worker\\Contoso.Events.Worker.csproj",
+        "projectName": "Contoso.Events.Worker",
+        "projectPath": "E:\\NULP\\Term_6\\CC\\Labs\\Lab5\\Lab5_1\\Starter\\Contoso.Events.Worker\\Contoso.Events.Worker.csproj",
+        "packagesPath": "C:\\Users\\roman\\.nuget\\packages\\",
+        "outputPath": "E:\\NULP\\Term_6\\CC\\Labs\\Lab5\\Lab5_1\\Starter\\Contoso.Events.Worker\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\roman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "E:\\NULP\\Term_6\\CC\\Labs\\Lab5\\Lab5_1\\Starter\\Contoso.Events.Data\\Contoso.Events.Data.csproj": {
+                "projectPath": "E:\\NULP\\Term_6\\CC\\Labs\\Lab5\\Lab5_1\\Starter\\Contoso.Events.Data\\Contoso.Events.Data.csproj"
+              },
+              "E:\\NULP\\Term_6\\CC\\Labs\\Lab5\\Lab5_1\\Starter\\Contoso.Events.Models\\Contoso.Events.Models.csproj": {
+                "projectPath": "E:\\NULP\\Term_6\\CC\\Labs\\Lab5\\Lab5_1\\Starter\\Contoso.Events.Models\\Contoso.Events.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            },
+            "Microsoft.Azure.DocumentDB": {
+              "target": "Package",
+              "version": "[1.22.0, )"
+            },
+            "Microsoft.Azure.DocumentDB.Core": {
+              "target": "Package",
+              "version": "[1.9.1, )"
+            },
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
